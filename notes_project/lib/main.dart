@@ -10,7 +10,10 @@ class NotesApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // MaterialApp is likely the core component of flutter
       theme: ThemeData.light(),
+      home: Scaffold(),
+      // Scaffolf widget used to implement basic material design visual layout strucure
     );
   }
 }
