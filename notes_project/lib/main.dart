@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_project/views/notes_view.dart';
 
 void main() {
   runApp(const NotesApp());
@@ -12,7 +13,7 @@ class NotesApp extends StatelessWidget {
     return MaterialApp(
       // MaterialApp is li  kely the core component of flutter
       theme: ThemeData(brightness: Brightness.dark),
-      home: Scaffold(),
+      home: NotesView(),
       // Scaffolf widget used to implement basic material design visual layout strucure
     );
   }
