@@ -13,7 +13,7 @@ class NotesApp extends StatelessWidget {
     return MaterialApp(
       // MaterialApp is li  kely the core component of flutter
       theme: ThemeData(brightness: Brightness.dark),
-      home: NotesView(),
+      home: const NotesView(),
       // Scaffolf widget used to implement basic material design visual layout strucure
     );
   }
